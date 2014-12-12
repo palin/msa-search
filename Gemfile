@@ -33,4 +33,6 @@ end
 group :test do
   gem 'rspec-rails', '~> 3.0'
   gem 'rspec-its'
+  gem 'pry'
+  gem 'pry-debugger'
 end
