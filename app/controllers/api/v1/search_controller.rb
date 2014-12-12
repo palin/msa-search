@@ -9,6 +9,6 @@ class Api::V1::SearchController < Api::V1::BaseController
 
   private
     def search_params
-      params.require(:query)
+      QueryParser.parse(params.require(:query))
     end
 end
