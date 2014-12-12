@@ -37,4 +37,5 @@ group :test do
   gem 'rspec-its'
   gem 'pry'
   gem 'pry-debugger'
+  gem 'vcr'
 end
