@@ -29,4 +29,5 @@ gem 'spring',        group: :development
 
 group :test do
   gem 'rspec-rails', '~> 3.0'
+  gem 'rspec-its'
 end
