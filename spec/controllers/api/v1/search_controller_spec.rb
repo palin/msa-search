@@ -68,7 +68,7 @@ describe Api::V1::SearchController do
       end
 
       context "no response results" do
-        before { expect_any_instance_of(Search).to receive(:results).and_return(nil) }
+        before { expect_any_instance_of(Search).to receive(:results).and_return(OpenStruct.new) }
 
         it "should have OK status" do
           expect(subject.status).to eq(200)
